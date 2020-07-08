@@ -20,7 +20,7 @@ Description as Below:
 
 
 ## Structure
-![Diagram]("/LeNet_architecture.png")
+![Diagram](LeNet_architecture.png)
 `Input(1, 32,32) => Convolution(6,28,28) => pool(6,14,14) => Convolution(16,10,10) => pool(16,5,5) => Linear(120) => Linear(84) => Output(10)`
 
 ## Results
