@@ -39,8 +39,8 @@ class LeNet(nn.Module):
   def forward(self, x, activations=None):
     """
     Parameters:
-      x: input tenosor 
-      activations: set of 5 activation functions for each conv and linear layer.
+      x: input tensor 
+      activations: set of 5 activation functions for each conv and linear layer
 
     """
     act1 = act2 = act3 =  act4 = act5 = torch.relu
